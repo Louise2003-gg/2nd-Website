@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mycss {
+    color: blue;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 104, 52);
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+    padding-right: 1rem;
+}
+
+.face{
+    color: rgb(21, 12, 139);
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.git{
+    color: rgb(19, 18, 18);
+    cursor: pointer;
+    font-size: xx-large;
+    padding-left: 15px;
+}
+
+.inst{
+    color: rgb(125, 21, 94);
+    cursor: pointer;
+    font-size: xx-large;
+    padding-left: 15px;
+}
+
+.header-box-for-menu {
+    display: none;
+    font-size: xx-large;
+}
+
+.sec-one{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px;
+    margin-top: 10px;
+}
+
+.texts{
+    padding-top: 100px;
+    padding-right: 150px;
+}
+
+.fullimg{
+    padding-left: 350px;
+    width: 500px;
+}
+
+.full{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    margin-block: 30px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.about{
+    padding: 100px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+h1{
+    color: green;
+}
+
+p{
+    font-size: large;
+    text-align: justify;
+}
+
+.gcc{
+    width: 100%;
+    height: 350px;
+}

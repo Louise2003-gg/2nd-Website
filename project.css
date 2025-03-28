@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mycss {
+    color: blue;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 104, 52);
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+    padding-right: 1rem;
+}
+
+.face{
+    color: rgb(21, 12, 139);
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.git{
+    color: rgb(19, 18, 18);
+    cursor: pointer;
+    font-size: xx-large;
+    padding-left: 15px;
+}
+
+.inst{
+    color: rgb(125, 21, 94);
+    cursor: pointer;
+    font-size: xx-large;
+    padding-left: 15px;
+}
+
+.header-box-for-menu {
+    display: none;
+    font-size: xx-large;
+}
+
+.sulod{
+    justify-content: center;
+    display: flex;
+    padding-top: 300px;
+}
+
+h1{
+    font-size: xx-large;
+}
